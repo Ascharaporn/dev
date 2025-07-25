@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ตารางพร้อมลิงก์ภาพ</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        img {
+            width: 100px; /* ปรับขนาดภาพตามต้องการ */
+        }
+    </style>
+</head>
+<body>
+
+<h2>ตารางที่มีภาพเป็นลิงก์</h2>
+
+<table>
+    <tr>
+        <th>ชื่อ</th>
+        <th>ภาพลิงก์</th>
+    </tr>
+    <tr>
+        <td>ตัวอย่างภาพ 1</td>
+        <td>
+            <a href="https://example.com">
+                <img src="https://via.placeholder.com/100" alt="ภาพตัวอย่าง">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>ตัวอย่างภาพ 2</td>
+        <td>
+            <a href="https://google.com">
+                <img src="https://via.placeholder.com/100" alt="Google">
+            </a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
